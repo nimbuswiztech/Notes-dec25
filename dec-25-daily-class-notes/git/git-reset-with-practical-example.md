@@ -1,4 +1,4 @@
-# Let’s Learn Git Reset With Practical Example | Medium
+# git reset with practical example
 
 Through our workflow with git as developers, we occasionally need to undo changes that we did to our code, and that is when we want to use `git reset`.
 
@@ -56,11 +56,17 @@ Example commands and outputs:
 
 ```bash
 git status
+
 # On branch master
+
 # No commits yet
+
 # Untracked files:
+
 #   (use "git add <file>..." to include in what will be committed)
+
 #         file1.txt
+
 # nothing added to commit but untracked files present (use "git add" to track)
 ```
 
@@ -70,10 +76,15 @@ Right now `file1.txt` exists only in the working directory, not in the index (it
 git add file1.txt
 
 git status
+
 # On branch master
+
 # No commits yet
+
 # Changes to be committed:
+
 #   (use "git rm --cached <file>..." to unstage)
+
 #         new file:   file1.txt
 ```
 
@@ -81,12 +92,17 @@ Now commit it and check status again:
 
 ```bash
 git commit -m "our first file"
+
 # [master (root-commit) 7ed5dc0] our first file
+
 # 1 file changed, 0 insertions(+), 0 deletions(-)
+
 # create mode 100644 file1.txt
 
 git status
+
 # On branch master
+
 # nothing to commit, working tree clean
 ```
 
@@ -100,27 +116,41 @@ Add `file2.txt` and perform the cycle again:
 
 ```bash
 git status
+
 # On branch master
+
 # Untracked files:
+
 #   (use "git add <file>..." to include in what will be committed)
+
 #         file2.txt
+
 # nothing added to commit but untracked files present (use "git add" to track)
 
 git add file2.txt
 
 git status
+
 # On branch master
+
 # Changes to be committed:
+
 #   (use "git restore --staged <file>..." to unstage)
+
 #         new file:   file2.txt
 
 git commit -m "added file 2"
+
 # [master 742c271] added file 2
+
 # 1 file changed, 0 insertions(+), 0 deletions(-)
+
 # create mode 100644 file2.txt
 
 git status
+
 # On branch master
+
 # nothing to commit, working tree clean
 ```
 
@@ -128,15 +158,23 @@ View the two commits:
 
 ```bash
 git log
+
 # commit 742c2713887c8b0056bea68d32f542807dca2324 (HEAD -> master)
+
 # Author: Yair <yair543210@gmail.com>
+
 # Date: ...
+
 #
 #     added file 2
+
 #
 # commit 7ed5dc012974aa577184f71077d02ccc63653225
+
 # Author: Yair <yair543210@gmail.com>
+
 # Date: ...
+
 #
 #     our first file
 ```
@@ -151,9 +189,13 @@ Then check status:
 
 ```bash
 git status
+
 # On branch master
+
 # Untracked files:
+
 #   (use "git add <file>..." to include in what will be committed)
+
 #         file2.txt
 ```
 
@@ -162,8 +204,11 @@ When `git reset` was used without any flag, git used the mixed flag by default. 
 ```bash
 git add file2.txt
 git commit -m "added file 2 again"
+
 # [master c211158] added file 2 again
+
 # 1 file changed, 0 insertions(+), 0 deletions(-)
+
 # create mode 100644 file2.txt
 ```
 
@@ -171,15 +216,23 @@ Now `git log` shows the first commit and this new commit:
 
 ```bash
 git log
+
 # commit c211158cee7a04c1cba4c7e10a2474c64b298d1c (HEAD -> master)
+
 # Author: Yair <yair543210@gmail.com>
+
 # Date: ...
+
 #
 #     added file 2 again
+
 #
 # commit 7ed5dc012974aa577184f71077d02ccc63653225
+
 # Author: Yair <yair543210@gmail.com>
+
 # Date: ...
+
 #
 #     our first file
 ```
@@ -192,10 +245,13 @@ Now use `git reset` with the `--hard` flag to go back to the first commit:
 
 ```bash
 git reset --hard 7ed5dc012974aa577184f71077d02ccc63653225
+
 # HEAD is now at 7ed5dc0 our first file
 
 git status
+
 # On branch master
+
 # nothing to commit, working tree clean
 ```
 
@@ -203,7 +259,9 @@ When using the `--hard` flag we deleted everything that was done after the commi
 
 ```bash
 ls
+
 # file1.txt
+
 # (file2.txt is no longer present)
 ```
 {% endstep %}
