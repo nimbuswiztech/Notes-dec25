@@ -36,4 +36,5 @@
   * [git cheat sheet](dec-25-daily-class-notes/git/git-cheat-sheet.md)
   * [git work flow](dec-25-daily-class-notes/git/git-work-flow.md)
   * [git revert](dec-25-daily-class-notes/git/git-revert.md)
+  * [git reset](dec-25-daily-class-notes/git/git-reset.md)
   * [git reset with practical example](dec-25-daily-class-notes/git/git-reset-with-practical-example.md)
