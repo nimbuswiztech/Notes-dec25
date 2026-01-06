@@ -44,3 +44,7 @@
   * [create ec2 instance in aws](dec-25-daily-class-notes/aws/create-ec2-instance-in-aws.md)
   * [Cloud Computing](dec-25-daily-class-notes/aws/cloud-computing.md)
   * [aws ec2 demo](dec-25-daily-class-notes/aws/aws-ec2-demo.md)
+  * [ec2 instance types](dec-25-daily-class-notes/aws/ec2-instance-types.md)
+  * [ec2 pricing models](dec-25-daily-class-notes/aws/ec2-pricing-models.md)
+  * [amazon ec2 basics](dec-25-daily-class-notes/aws/amazon-ec2-basics.md)
+  * [cidr](dec-25-daily-class-notes/aws/cidr.md)
