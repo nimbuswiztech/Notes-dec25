@@ -63,3 +63,5 @@
     * [efs](dec-25-daily-class-notes/aws/volume-basics/efs.md)
     * [excercices](dec-25-daily-class-notes/aws/volume-basics/excercices.md)
     * [volume basics](dec-25-daily-class-notes/aws/volume-basics/volume-basics.md)
+* [Interview space](dec-25-daily-class-notes/interview-space/README.md)
+  * [aws scenario question](dec-25-daily-class-notes/interview-space/aws-scenario-question.md)
