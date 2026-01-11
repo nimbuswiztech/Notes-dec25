@@ -14,7 +14,7 @@ Follow the steps below to create an EC2 instance in AWS (Amazon):
 
 First, log into your AWS account and click on "services" in the AWS Management Console. From the drop-down menu, select "EC2". To create an AWS free tier account, refer to Amazon Web Services (AWS) – Free Tier Account Set up.
 
-![AWS Console](../../.gitbook/assets/awsec2navigation.png)
+![AWS Console](../../../.gitbook/assets/awsec2navigation.png)
 
 Under Resources >> Click on "Instances running" to see whether any EC2 instances are running.
 {% endstep %}
@@ -25,7 +25,7 @@ Under Resources >> Click on "Instances running" to see whether any EC2 instances
 * Click on "Launch instance" to go to the launch page where you can create an instance.
 * Enter a name for the instance and select the required configurations.
 
-![Naming instance](../../.gitbook/assets/Screenshot_5.png)
+![Naming instance](../../../.gitbook/assets/Screenshot_5.png)
 {% endstep %}
 
 {% step %}
@@ -35,7 +35,7 @@ Select the AMI (required operating system) from the available options. Choose th
 
 [Select AMI](https://www.geeksforgeeks.org/what-is-amazon-machine-image-ami/)
 
-![Selecting AMI](../../.gitbook/assets/Screenshot_1.png)
+![Selecting AMI](../../../.gitbook/assets/Screenshot_1.png)
 {% endstep %}
 
 {% step %}
@@ -45,7 +45,7 @@ By default, a free tier-eligible instance is available if you qualify (for examp
 
 To know more about instance types refer to Amazon EC2 – Instance Types.
 
-![Select instance type](../../.gitbook/assets/Screenshot_3.png)
+![Select instance type](../../../.gitbook/assets/Screenshot_3.png)
 {% endstep %}
 
 {% step %}
@@ -56,7 +56,7 @@ Create a key pair by clicking "Create new key pair". The key pair acts as the SS
 * Create Key-Pair: Enter a name, select ".pem", and create.
 * The key pair will be downloaded automatically. Select the created key pair for the instance.
 
-![Creating key pair](../../.gitbook/assets/Screenshot_4.png)
+![Creating key pair](../../../.gitbook/assets/Screenshot_4.png)
 {% endstep %}
 
 {% step %}
@@ -66,7 +66,7 @@ Keep the network settings as the default unless you need specific VPC/subnet set
 
 [Introduction to AWS Elastic Block Store (EBS)](https://www.geeksforgeeks.org/introduction-to-aws-elastic-block-storeebs/)
 
-![Configuring Storage](<../../.gitbook/assets/Screenshot 01 11 2023 204625.png>)
+![Configuring Storage](<../../../.gitbook/assets/Screenshot 01 11 2023 204625.png>)
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ Keep the network settings as the default unless you need specific VPC/subnet set
 
 Verify that all selected options are free tier-eligible (if applicable) and click "Launch instance". The instance will be created.
 
-![Launching instance](../../.gitbook/assets/Screenshot_8.png)
+![Launching instance](../../../.gitbook/assets/Screenshot_8.png)
 {% endstep %}
 {% endstepper %}
 
@@ -90,7 +90,7 @@ Once your instance is launched, secure access is essential. Follow the steps bel
 
 Select the server you want to connect to and click the "Connect" button at the top of the instance details.
 
-![EC2 Instance](<../../.gitbook/assets/00890203 5650 4b8d 9163 ccd1c9b688eb.webp>)
+![EC2 Instance](<../../../.gitbook/assets/00890203 5650 4b8d 9163 ccd1c9b688eb.webp>)
 {% endstep %}
 
 {% step %}
@@ -100,7 +100,7 @@ Copy the SSH command shown in the console. This uses the key pair (public/privat
 
 [How to create a public-private key pair](https://www.geeksforgeeks.org/how-to-create-a-public-private-key-pair/)
 
-![Select the SSH key](<../../.gitbook/assets/eae88ebf fea2 46a8 b637 8a36693af993.webp>)
+![Select the SSH key](<../../../.gitbook/assets/eae88ebf fea2 46a8 b637 8a36693af993.webp>)
 {% endstep %}
 
 {% step %}
@@ -108,7 +108,7 @@ Copy the SSH command shown in the console. This uses the key pair (public/privat
 
 Open a terminal, change directory to where your .pem file is located, and paste/execute the copied SSH command.
 
-![Terminal](<../../.gitbook/assets/17221a11 89b3 4d44 a060 18f3ff7c6edf.webp>)
+![Terminal](<../../../.gitbook/assets/17221a11 89b3 4d44 a060 18f3ff7c6edf.webp>)
 
 To verify the connection, check the instance IP address — if it displays, you are connected successfully.
 

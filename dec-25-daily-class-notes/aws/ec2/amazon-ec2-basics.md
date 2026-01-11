@@ -6,13 +6,13 @@ It is very difficult to predict how much computing power one might require for a
 
 Amazon Elastic Compute Cloud (EC2) is a web service from Amazon that provides re-sizable compute services in the cloud.
 
-![](../../.gitbook/assets/1_C1uZnHGbzUWkmblcqnQLA.png)
+![](../../../.gitbook/assets/1_C1uZnHGbzUWkmblcqnQLA.png)
 
 ### How are they re-sizable?
 
 They are re-sizable because you can quickly scale up or scale down the number of server instances you are using if your computing requirements change.
 
-![](../../.gitbook/assets/1yz_VwYdZ7n4o1ELS2kyhFQ.png)
+![](../../../.gitbook/assets/1yz_VwYdZ7n4o1ELS2kyhFQ.png)
 
 ### What is an Instance?
 
@@ -189,11 +189,11 @@ To authenticate users to their instances, AWS uses a key pair method.
 * The public key encrypts (stored by AWS) and the private key decrypts (kept by you).
 * Public/private keys together are called a key pair.
 
-![](../../.gitbook/assets/1tWb4QucMNr3rfcREy_Hi9g.png)
+![](../../../.gitbook/assets/1tWb4QucMNr3rfcREy_Hi9g.png)
 
 Additional EC2 features:
 
-![](../../.gitbook/assets/1y8SiaXenHJkYUH33eQK5Vw.png)
+![](../../../.gitbook/assets/1y8SiaXenHJkYUH33eQK5Vw.png)
 
 ### Auto Scaling
 
@@ -237,7 +237,7 @@ Reserved Instances:
 
 Sign in to the AWS Management Console and open the EC2 service.
 
-![](../../.gitbook/assets/1IuoDDIE0oCPkPD4FHK69oA.png)
+![](../../../.gitbook/assets/1IuoDDIE0oCPkPD4FHK69oA.png)
 {% endstep %}
 
 {% step %}
@@ -245,7 +245,7 @@ Sign in to the AWS Management Console and open the EC2 service.
 
 Choose your preferred region from the region selector. Region selection can affect latency and pricing.
 
-![](../../.gitbook/assets/1hCaawoCpUlfjk7eIrplNpQ.png)
+![](../../../.gitbook/assets/1hCaawoCpUlfjk7eIrplNpQ.png)
 {% endstep %}
 
 {% step %}
@@ -253,7 +253,7 @@ Choose your preferred region from the region selector. Region selection can affe
 
 Select EC2 under the Compute section to open the EC2 dashboard.
 
-![](../../.gitbook/assets/1kc5wmLKf6lo7KUcezww3OA.png)
+![](../../../.gitbook/assets/1kc5wmLKf6lo7KUcezww3OA.png)
 {% endstep %}
 
 {% step %}
@@ -267,7 +267,7 @@ Click "Launch Instance".
 
 For a Linux instance, choose the basic 64-bit Ubuntu AMI and click "Select".
 
-![](../../.gitbook/assets/11VRfDkDEwQURN5L_vbAwIw.png)
+![](../../../.gitbook/assets/11VRfDkDEwQURN5L_vbAwIw.png)
 {% endstep %}
 
 {% step %}
@@ -275,7 +275,7 @@ For a Linux instance, choose the basic 64-bit Ubuntu AMI and click "Select".
 
 Select t2.micro (free tier eligible).
 
-![](../../.gitbook/assets/1lY7NVYo4zSgXki6LlACu2A.png)
+![](../../../.gitbook/assets/1lY7NVYo4zSgXki6LlACu2A.png)
 {% endstep %}
 
 {% step %}
@@ -283,7 +283,7 @@ Select t2.micro (free tier eligible).
 
 Configure desired details (networking, IAM role, etc.) and then click "Add Storage".
 
-![](<../../.gitbook/assets/1VQO98pmDMXi43ceiEGUx A.png>)
+![](<../../../.gitbook/assets/1VQO98pmDMXi43ceiEGUx A.png>)
 {% endstep %}
 
 {% step %}
@@ -291,7 +291,7 @@ Configure desired details (networking, IAM role, etc.) and then click "Add Stora
 
 Configure EBS volume settings as needed.
 
-![](<../../.gitbook/assets/1wfN8Sm pk0JfaFsOReyLtQ.png>)
+![](<../../../.gitbook/assets/1wfN8Sm pk0JfaFsOReyLtQ.png>)
 {% endstep %}
 
 {% step %}
@@ -299,7 +299,7 @@ Configure EBS volume settings as needed.
 
 Add a Name tag (or other tags) to identify your instance in the console.
 
-![](../../.gitbook/assets/1hh8buqIW5LMt0U_mJ5DDYw.png)
+![](../../../.gitbook/assets/1hh8buqIW5LMt0U_mJ5DDYw.png)
 {% endstep %}
 
 {% step %}
@@ -307,7 +307,7 @@ Add a Name tag (or other tags) to identify your instance in the console.
 
 Create or select a security group to control inbound and outbound traffic.
 
-![](../../.gitbook/assets/1qFK5x1cUpRoUm4u1UvJp8g.png)
+![](../../../.gitbook/assets/1qFK5x1cUpRoUm4u1UvJp8g.png)
 {% endstep %}
 
 {% step %}
@@ -315,7 +315,7 @@ Create or select a security group to control inbound and outbound traffic.
 
 Verify the configured settings and click "Launch".
 
-![](../../.gitbook/assets/1lT8htUveGDa6e2PAi9m1OQ.png)
+![](../../../.gitbook/assets/1lT8htUveGDa6e2PAi9m1OQ.png)
 {% endstep %}
 
 {% step %}
@@ -323,7 +323,7 @@ Verify the configured settings and click "Launch".
 
 Select "Create a new key pair", name it, download the private key (.pem), and save it securely for future use.
 
-![](../../.gitbook/assets/1XHokHF_68_RP9V0ngWCvcg.png)
+![](../../../.gitbook/assets/1XHokHF_68_RP9V0ngWCvcg.png)
 {% endstep %}
 
 {% step %}
@@ -331,7 +331,7 @@ Select "Create a new key pair", name it, download the private key (.pem), and sa
 
 Inspect the instance details in the EC2 console after launch.
 
-![](../../.gitbook/assets/1OyMoGyuoFW5kSF9TOiJZzg.png)
+![](../../../.gitbook/assets/1OyMoGyuoFW5kSF9TOiJZzg.png)
 {% endstep %}
 
 {% step %}

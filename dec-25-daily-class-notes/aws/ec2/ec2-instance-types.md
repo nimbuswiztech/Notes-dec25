@@ -28,7 +28,7 @@ For these workloads you can take advantage of the low-cost burstable general pur
 
 For additional information, see [Burstable performance instances.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html)
 
-![General purpose family and sub-families](../../.gitbook/assets/0QDuEQWqEuv2rbxIh.png)
+![General purpose family and sub-families](../../../.gitbook/assets/0QDuEQWqEuv2rbxIh.png)
 
 </details>
 
@@ -46,7 +46,7 @@ Compute optimized instances are ideal for compute-bound applications that benefi
 * Dedicated gaming servers and ad server engines
 * Machine learning (ML) inference
 
-![Compute-optimized family and sub-families](../../.gitbook/assets/0CSmCy4mZNFcxKRXw.png)
+![Compute-optimized family and sub-families](../../../.gitbook/assets/0CSmCy4mZNFcxKRXw.png)
 
 </details>
 
@@ -56,7 +56,7 @@ Compute optimized instances are ideal for compute-bound applications that benefi
 
 Memory optimized instances are designed to deliver fast performance for workloads that process large data sets in memory.
 
-![Memory-optimized family and sub-families](../../.gitbook/assets/0C86ImZ_4mAc4UIX5.png)
+![Memory-optimized family and sub-families](../../../.gitbook/assets/0C86ImZ_4mAc4UIX5.png)
 
 </details>
 
@@ -66,7 +66,7 @@ Memory optimized instances are designed to deliver fast performance for workload
 
 Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random input/output (I/O) operations per second (IOPS) to applications.
 
-![Storage-optimized family and sub-families](<../../.gitbook/assets/0iGS6 KFB5iA0mfWZ.png>)
+![Storage-optimized family and sub-families](<../../../.gitbook/assets/0iGS6 KFB5iA0mfWZ.png>)
 
 </details>
 
@@ -78,6 +78,6 @@ Accelerated computing instances use hardware accelerators, or co-processors, to 
 
 If you require high processing capability, you will benefit from using accelerated computing instances, which provide access to hardware-based compute accelerators such as graphics processing units (GPUs), field programmable gate arrays (FPGAs), or AWS Inferentia.
 
-![Accelerated computing family and sub-families](../../.gitbook/assets/0K1eNOipyZ67K48ur.png)
+![Accelerated computing family and sub-families](../../../.gitbook/assets/0K1eNOipyZ67K48ur.png)
 
 </details>
