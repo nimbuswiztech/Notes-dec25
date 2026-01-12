@@ -13,7 +13,7 @@ CIDR expresses a network as `<base-IP>/<prefix-length>`.
 
 Example: `192.168.1.0/24`
 
-* 24 network bits → 8 host bits → 2⁸ = 256 total addresses → 254 usable (network + broadcast are reserved).
+* 24 network bits → 8 host bits → 2⁸ = 256 total addresses → 251 usable (5 Ip's will be reserved reserved).
 
 ### Demonstration Scenario
 
