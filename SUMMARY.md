@@ -68,3 +68,5 @@
 * [Interview space](dec-25-daily-class-notes/interview-space/README.md)
   * [aws scenario question](dec-25-daily-class-notes/interview-space/aws-scenario-question.md)
   * [AWS EC2, VPC, Volumes \&SG Scenario-Based Interview Q\&A](dec-25-daily-class-notes/interview-space/aws-ec2-vpc-volumes-and-sg-scenario-based-interview-q-and-a.md)
+  * [HTTPD Scenarios](dec-25-daily-class-notes/interview-space/httpd-scenarios.md)
+  * [S3 Interview questions](dec-25-daily-class-notes/interview-space/s3-interview-questions.md)
