@@ -63,6 +63,8 @@
     * [efs](dec-25-daily-class-notes/aws/volume-basics/efs.md)
     * [excercices](dec-25-daily-class-notes/aws/volume-basics/excercices.md)
     * [volume basics](dec-25-daily-class-notes/aws/volume-basics/volume-basics.md)
+  * [elb lab](dec-25-daily-class-notes/aws/elb-lab.md)
+  * [Load Balancers Basic](dec-25-daily-class-notes/aws/load-balancers-basic.md)
 * [Interview space](dec-25-daily-class-notes/interview-space/README.md)
   * [aws scenario question](dec-25-daily-class-notes/interview-space/aws-scenario-question.md)
   * [AWS EC2, VPC, Volumes \&SG Scenario-Based Interview Q\&A](dec-25-daily-class-notes/interview-space/aws-ec2-vpc-volumes-and-sg-scenario-based-interview-q-and-a.md)
