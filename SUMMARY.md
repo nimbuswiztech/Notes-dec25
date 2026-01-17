@@ -74,3 +74,4 @@
   * [AWS EC2, VPC, Volumes \&SG Scenario-Based Interview Q\&A](dec-25-daily-class-notes/interview-space/aws-ec2-vpc-volumes-and-sg-scenario-based-interview-q-and-a.md)
   * [HTTPD Scenarios](dec-25-daily-class-notes/interview-space/httpd-scenarios.md)
   * [S3 Interview questions](dec-25-daily-class-notes/interview-space/s3-interview-questions.md)
+  * [Provide 20 scenario based clear interview question](dec-25-daily-class-notes/interview-space/provide-20-scenario-based-clear-interview-question.md)
