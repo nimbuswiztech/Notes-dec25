@@ -63,7 +63,7 @@
     * [efs](dec-25-daily-class-notes/aws/volume-basics/efs.md)
     * [excercices](dec-25-daily-class-notes/aws/volume-basics/excercices.md)
     * [volume basics](dec-25-daily-class-notes/aws/volume-basics/volume-basics.md)
-  * [elb lab](dec-25-daily-class-notes/aws/elb-lab.md)
+  * [Elastic Load Balancer lab](dec-25-daily-class-notes/aws/elastic-load-balancer-lab.md)
   * [Load Balancers Basic](dec-25-daily-class-notes/aws/load-balancers-basic.md)
   * [S3](dec-25-daily-class-notes/aws/s3/README.md)
     * [s3 storage classes](dec-25-daily-class-notes/aws/s3/s3-storage-classes.md)
