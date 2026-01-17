@@ -1,8 +1,8 @@
-# Provide 20 scenario based clear interview question
+# Scenario based interview questions on Load Balancer
 
 {% stepper %}
 {% step %}
-### All targets unhealthy after deployment
+All targets unhealthy after deployment
 
 **Question:** You deployed a new version of your app behind an ALB, and suddenly all targets in the target group show as “unhealthy”. How would you troubleshoot and fix this?
 
