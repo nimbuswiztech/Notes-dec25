@@ -74,6 +74,8 @@
     * [IAM Basic concepts](dec-25-daily-class-notes/aws/iam/iam-basic-concepts.md)
     * [policies](dec-25-daily-class-notes/aws/iam/policies.md)
     * [Difference Between Roles and Policies in AWS](dec-25-daily-class-notes/aws/iam/difference-between-roles-and-policies-in-aws.md)
+  * [Auto scaling groups](dec-25-daily-class-notes/aws/auto-scaling-groups.md)
+  * [stress test](dec-25-daily-class-notes/aws/stress-test.md)
 * [Interview space](dec-25-daily-class-notes/interview-space/README.md)
   * [aws scenario question](dec-25-daily-class-notes/interview-space/aws-scenario-question.md)
   * [AWS EC2, VPC, Volumes \&SG Scenario-Based Interview Q\&A](dec-25-daily-class-notes/interview-space/aws-ec2-vpc-volumes-and-sg-scenario-based-interview-q-and-a.md)
