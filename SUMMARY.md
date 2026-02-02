@@ -103,6 +103,7 @@
   * [jenkins parameters](dec-25-daily-class-notes/jenkins-ci-cd/jenkins-parameters.md)
   * [master slave configuration](dec-25-daily-class-notes/jenkins-ci-cd/master-slave-configuration.md)
   * [pluggin installation](dec-25-daily-class-notes/jenkins-ci-cd/pluggin-installation.md)
+  * [Jenkins Pipelines samples](dec-25-daily-class-notes/jenkins-ci-cd/jenkins-pipelines-samples.md)
   * [pipelines](dec-25-daily-class-notes/jenkins-ci-cd/pipelines.md)
   * [pipline options](dec-25-daily-class-notes/jenkins-ci-cd/pipline-options.md)
   * [matrix based security](dec-25-daily-class-notes/jenkins-ci-cd/matrix-based-security.md)
