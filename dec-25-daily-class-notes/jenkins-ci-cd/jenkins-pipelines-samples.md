@@ -844,110 +844,7 @@ pipeline {
 
 ***
 
-## 12. Key Corrections Made
-
-| Issue Found             | Correction Applied                           |
-| ----------------------- | -------------------------------------------- |
-| Invalid shell commands  | Used proper `sh` step syntax                 |
-| Missing variable syntax | Changed `$var` to `${var}` for clarity       |
-| Typos in sh commands    | Fixed `ls -lartiou` → `ls -lart`             |
-| Invalid characters      | Removed stray characters like `÷`, `uyt`     |
-| Missing `script` block  | Added when needed for complex logic          |
-| Improper `dir()` usage  | Corrected directory context switching        |
-| Undefined variables     | Ensured all variables are defined before use |
-| Syntax spacing          | Fixed indentation and spacing issues         |
-
 ***
-
-## 13. Best Practices for Demo Class
-
-### Always Include
-
-* `agent` declaration (any/none/label/docker)
-* `stages` with meaningful stage names
-* `steps` with clear, working shell commands
-* `post` block for notifications and cleanup
-* `options` for timeouts and log retention
-
-### Security Considerations
-
-* Use `credentialsId` for sensitive data
-* Never hardcode passwords or tokens
-* Use Jenkins credentials store
-* Rotate PAT tokens regularly
-
-### Performance Tips
-
-* Use `parallel` stages for independent builds
-* Implement `retry` logic for flaky steps
-* Set appropriate `timeout` values
-* Use `cleanWs()` to manage disk space
-
-### Debugging Techniques
-
-* Add `echo` statements for visibility
-* Use `sh 'set -x'` for command tracing
-* Check `BUILD_URL` for log access
-* Leverage `timestamps()` option
-
-***
-
-## Demo Class Script Outline
-
-{% stepper %}
-{% step %}
-### Introduction (5 min)
-
-* What is Jenkins declarative pipeline
-* Key components: agent, stages, steps, post
-{% endstep %}
-
-{% step %}
-### Agent Types Demo (10 min)
-
-* agent any (on any executor)
-* agent none + per-stage agents
-* agent label (specific slave)
-* agent docker (containerized builds)
-{% endstep %}
-
-{% step %}
-### Variables & Parameters (10 min)
-
-* Environment variables
-* String parameters
-* Variable expansion in shell
-{% endstep %}
-
-{% step %}
-### Options & Triggers (8 min)
-
-* retry, timeout, timestamps
-* pollSCM and cron triggers
-* buildDiscarder
-{% endstep %}
-
-{% step %}
-### Advanced Features (15 min)
-
-* Parallel execution
-* Try-catch error handling
-* When conditions (anyOf, allOf)
-* Post actions (always, success, failure)
-{% endstep %}
-
-{% step %}
-### Real-world Example (10 min)
-
-* Complete Git + Maven + Docker pipeline
-* Credentials handling
-* Artifact management
-{% endstep %}
-
-{% step %}
-### Q\&A (2 min)
-{% endstep %}
-{% endstepper %}
 
 ***
 
@@ -1024,10 +921,5 @@ pipeline {
         success { echo 'Success' }
         failure { echo 'Failed' }
     }
-}
+
 ```
-
-***
-
-Generated for DevOps Training - February 2026\
-All examples tested and ready for demonstration
