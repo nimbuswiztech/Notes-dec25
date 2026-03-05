@@ -151,6 +151,7 @@
   * [terraform modules](dec-25-daily-class-notes/terraform/terraform-modules.md)
   * [terraform](dec-25-daily-class-notes/terraform/terraform.md)
   * [eks cluster creation using terraform](dec-25-daily-class-notes/terraform/eks-cluster-creation-using-terraform.md)
+  * [Terraform Interview questions](dec-25-daily-class-notes/terraform/terraform-interview-questions.md)
 * [Kubernetes](dec-25-daily-class-notes/kubernetes/README.md)
   * [Home](dec-25-daily-class-notes/kubernetes/home.md)
   * [Introduction to kubernetes](dec-25-daily-class-notes/kubernetes/introduction-to-kubernetes.md)
