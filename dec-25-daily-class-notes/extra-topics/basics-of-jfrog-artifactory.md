@@ -18,7 +18,7 @@ In NPM the artifact file would be .tar.gz file.
 
 In .NET the artifact file would be a .dill file.
 
-![](../.gitbook/assets/1JBokGMaugRlacpGDzitiHQ.png)
+![](../../.gitbook/assets/1JBokGMaugRlacpGDzitiHQ.png)
 
 ### What is an Artifact repository?
 
@@ -28,7 +28,7 @@ Artifacts need to be stored and shared with all of the developers on a given pro
 
 Artifact repositories are widely considered the best solution for managing an ever-expanding number of artifacts.
 
-![](../.gitbook/assets/1OkvpXSOBGFgLl6j0k3Obrg.png)
+![](../../.gitbook/assets/1OkvpXSOBGFgLl6j0k3Obrg.png)
 
 ### What is JFrog Artifactory?
 
@@ -38,24 +38,24 @@ The name “Artifactory” reflects the fact that it can host any type of “art
 
 Artifactory serves as the central hub for your DevOps processes. All artifacts, dependencies, packages, etc. ultimately get put into and pulled from Artifactory.
 
-![](../.gitbook/assets/1yGHE7QiQDSyoUgMUpGHLvQ.png)
+![](../../.gitbook/assets/1yGHE7QiQDSyoUgMUpGHLvQ.png)
 
-![](../.gitbook/assets/1zrbTConXQ8TlIgMn1Gjl6w.png)
+![](../../.gitbook/assets/1zrbTConXQ8TlIgMn1Gjl6w.png)
 
-![](<../.gitbook/assets/1xWGG0RKFv2sTJ1Y45H cLw.png>)
+![](<../../.gitbook/assets/1xWGG0RKFv2sTJ1Y45H cLw.png>)
 
-![](../.gitbook/assets/1aaa1UPZWndMjyy1IQLvf2w.png)
+![](../../.gitbook/assets/1aaa1UPZWndMjyy1IQLvf2w.png)
 
 **Price of Cloud(SaaS) JFrog**
 
-![](../.gitbook/assets/1LsaU03zXFJtLQmmUiUAjsw.png)
+![](../../.gitbook/assets/1LsaU03zXFJtLQmmUiUAjsw.png)
 
 **Price of Self-Hosted JFrog**
 
-![](../.gitbook/assets/1OgbeV2pkKNfEhFeoM3fyAA.png)
+![](../../.gitbook/assets/1OgbeV2pkKNfEhFeoM3fyAA.png)
 
 **They have Free-Trial**
 
-![](../.gitbook/assets/1i4GrIwnu526xr6NQgmUh_w.png)
+![](../../.gitbook/assets/1i4GrIwnu526xr6NQgmUh_w.png)
 
-![](../.gitbook/assets/10RgNtR0tqYyzldSlsyg5WA.png)
+![](../../.gitbook/assets/10RgNtR0tqYyzldSlsyg5WA.png)

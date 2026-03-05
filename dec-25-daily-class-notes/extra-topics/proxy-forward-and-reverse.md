@@ -109,7 +109,7 @@ Proxies play an important role in managing data flow between clients and servers
 * **Forward Proxy:** Acts on behalf of the client to enhance privacy and control access.
 * **Reverse Proxy:** Acts on behalf of the server to optimize performance and security.
 
-<figure><img src="../.gitbook/assets/forward_proxy.webp" alt="forward_proxy" height="400" width="800"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/forward_proxy.webp" alt="forward_proxy" height="400" width="800"><figcaption></figcaption></figure>
 
 ### Forward Vs Reverse Proxy
 
