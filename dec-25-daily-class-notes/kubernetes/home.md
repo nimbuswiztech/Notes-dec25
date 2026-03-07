@@ -1,11 +1,9 @@
 # Home
 
-
-
 ## Kubernetes
 
 * [Introduction and K8s architecture](https://github.com/nimbuswiztech/kubernetes/wiki/Introduction-to-kubernetes)
-* [Installation of k8](https://github.com/DeekshithSN/kubernetes/wiki/Kubeadm-setup-in-ubuntu-machines)
+* [Installation of k8](https://github.com/nimbuswiztech/kubernetes/wiki/Kubeadm-setup-in-ubuntu-machines)
 * [Steps to create EKS cluster](https://github.com/nimbuswiztech/kubernetes/wiki/Steps-to-create-EKS-cluster)
 * [Basic objects in kubernetes](https://github.com/nimbuswiztech/kubernetes/wiki/Kubernetes-for-beginners)
   1. pod
