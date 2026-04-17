@@ -94,6 +94,8 @@
   * [IaaS, PaaS, and SaaS](dec-25-daily-class-notes/aws/iaas-paas-and-saas.md)
   * [sns deep dive](dec-25-daily-class-notes/aws/sns-deep-dive.md)
   * [sns](dec-25-daily-class-notes/aws/sns.md)
+  * [postgres devops demo](dec-25-daily-class-notes/aws/postgres-devops-demo.md)
+  * [Data Base Basics](dec-25-daily-class-notes/aws/data-base-basics.md)
 * [Jenkins- CI/CD](dec-25-daily-class-notes/jenkins-ci-cd/README.md)
   * [CICD Images](dec-25-daily-class-notes/jenkins-ci-cd/cicd-images.md)
   * [build triggers](dec-25-daily-class-notes/jenkins-ci-cd/build-triggers.md)
