@@ -222,3 +222,4 @@
   * [project explanation detailed](dec-25-daily-class-notes/interview-preparation/project-explanation-detailed.md)
   * [release management](dec-25-daily-class-notes/interview-preparation/release-management.md)
   * [self introduction for june 25](dec-25-daily-class-notes/interview-preparation/self-introduction-for-june-25.md)
+* [Project Overview](dec-25-daily-class-notes/project-overview.md)
