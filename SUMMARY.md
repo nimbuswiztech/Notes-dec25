@@ -227,3 +227,4 @@
   * [TVIS complete explanation](dec-25-daily-class-notes/project-explanations/tvis-complete-explanation.md)
   * [Bluezone Project Explanation](dec-25-daily-class-notes/project-explanations/bluezone-project-explanation.md)
   * [FinSecure Project Explanation](dec-25-daily-class-notes/project-explanations/finsecure-project-explanation.md)
+  * [CTCT Projetc explanation](dec-25-daily-class-notes/project-explanations/ctct-projetc-explanation.md)
