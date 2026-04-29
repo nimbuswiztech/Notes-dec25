@@ -1,4 +1,4 @@
-# Project Explanation in detail For Dec 25
+# TVIS complete explanation
 
 {% stepper %}
 {% step %}
@@ -156,7 +156,7 @@ At a high level, the TVIS project architecture is an end-to-end fraud orchestrat
 * We use OpenSearch (via PSC), Kafka for event streaming, Vault plus GCP Secret Manager for secrets, Harness for CI/CD and IaC pipelines, and Terraform for all infrastructure provisioning.
 * Security scanning is handled by SonarQube and Checkmarx in CI, while Splunk, Grafana, and OpenSearch alerts provide monitoring and observability across environments.
 
-<figure><img src="../.gitbook/assets/user-gen-media-assets.s3.amazonaws.com.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user-gen-media-assets.s3.amazonaws.com.png" alt=""><figcaption></figcaption></figure>
 
 you can use this directly in interviews:
 
